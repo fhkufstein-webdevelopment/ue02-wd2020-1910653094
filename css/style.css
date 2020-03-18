@@ -8,6 +8,58 @@ body {
     padding:0;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.level_1>li>a {
+    color: #337ab7;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+}
+
+.level_1>li {
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: -41px;
+}
+
+.level_2>li>a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.level_2>li {
+    padding: 10px 0 10px 10px;
+}
+
+.level_2>li:hover {
+    background-color: #337ab7;
+}
+
+.level_2>li:hover>a {
+    color: white;
+}
+
+.level_2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 160px;
+    padding-left: 0;
+}
+
+.level_1>li:hover>ul {
+    display: block;
+}
+
 .logo {
     font-size:30px;
     text-transform: uppercase;
@@ -35,6 +87,7 @@ body {
 
 }
 
+/*Was ist before?*/
 .logo:before {
     content:"\f155";
     font-family: "FontAwesome", sans-serif;
